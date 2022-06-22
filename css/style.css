@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+    width: 80%;
+    background-color: #f2f2fe;
+    margin: auto;
+    overflow: hidden;
+
+}
+.fbody{
+    width: 60%;
+    
+    background: linear-gradient(45deg, dodgerblue, white, purple);
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 25px;
+    
+}
+h1{
+    font-size: 40px;
+    margin: auto;
+    padding: 10px 20px;
+    
+    margin: auto;
+    border-bottom: 3px solid;
+    text-align: center;
+    width: 70%;
+
+    
+}
+
+.label{
+    width: 250px;
+    display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 2px;
+}
+.label2{
+    padding: 20px;
+}
+
+.inp{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 0px 20px;
+    background-color: rgb(181, 217, 242);
+    border: none;
+}
+.fn{
+    width: 22%;
+    background-color: rgb(181, 217, 242);
+}
+
+.cys{
+    display: inline-block;
+}
+ .fs{
+    display: inline-block;
+    margin-top: 10px;
+    
+} 
+
+
+::placeholder{
+    padding-left: 10px;
+    font-size: 20px;
+    font-style: italic;
+    
+    
+}
+input[type=date]{
+    width: 35%;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(181, 217, 242);
+    border: none;
+    padding: 0px 10px;
+}
+input[type=date]:hover{
+    background-color: #fff;
+    outline: none;
+}
+.inp:hover{
+    background-color: #fff;
+    
+}
+.inp:focus{
+    outline: none;
+}
+input[type=date]:focus{
+    outline: none;
+}
+select{
+    background-color: rgb(181, 217, 242);
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+select:focus{
+    outline: none;
+}
+option{
+    background-color: rgb(203, 206, 207);
+    font-size: 20px;
+    
+}
+input[type=submit]{
+    width: 25%;
+    color: #fff;
+    height: 30px;
+    border-radius: 16px;
+    background-color: rgb(66, 99, 104);
+    border: none;
+    font-size: 20px;
+    box-shadow: 3px 5px 15px rgb(33, 32, 32);    
+}
+input[type=submit]:hover{
+    background-color: rgb(252, 152, 182);
+    border-radius: 5px;
+    color: rgb(7, 7, 7);
+    transition: 2s;
+    transform: rotate(5deg);
+}
